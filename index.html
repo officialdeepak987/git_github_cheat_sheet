@@ -19,7 +19,7 @@
 
         </div>
 
-        
+
 
         <div class="cards">
 
@@ -103,43 +103,82 @@
         <div class="cards">
 
             <div class="card1">
-                <p>Cheak .git file present or not </p>
-                <p> By using ls its showing not any file present</p>
-                <h3>=> ls </h3>
-                <p>But when using </p>
-                <h3>=> ls -a</h3>
-                <p>it show .git file by using git init</p>
+                <p> Create Branch </p>
+
+                <h3>=> git branch (branch name) </h3>
+                <p>How many Branch available. </p>
+                <h3>=> git branch</h3>
+                
 
             </div>
             <div class="card1">
-                <p>Git insitial by using command </p>
+                <p>Example (we create two branch )</p>
+                <h3> =>git branch  test1</h3>
+                <h3>-> git branch  test2</h3>
+                <p>To check how many Branch available or dev create or not.</p>
+                <h3>=> git branch</h3>
+
+            </div>
+
+            <div class="card1">
+                <p>Move from one branch to another</p>
+                <h3> => git checkout test1</h3>
+                <p>or</p>
+                <h3>=> git checkout -b (branch name where you want to move)</h3>
+                <p>check all commit and status</p>
+                <h3>=> git log </h3>
+                <h3>=> git status</h3>
+
+            </div>
+
+           
+        </div>
+
+
+        
+        <div class="heading2">
+            <h1 style="text-align: center; color: rgb(236, 236, 35); padding-top: 20px; margin: 20px;">Merge one branch to other branch
+            </h1>
+        </div>
+
+
+        <div class="cards">
+
+            <div class="card2">
+                <p> Merge on test2  to test1 </p>
+
+                <h3>=>git checkout test1 </h3>
+                <p>After moving  test1 using commmand to merge </p>
+                <h3>=>  git merge test2</h3>
+                
+
+            </div>
+            <div class="card2">
+                <p>merge all branch to master branch after final test</p>
+                <h3> =>git checkout master</h3>
+                <h3>-> git merge dev</h3>
+            </div>
+
+           
+
+           
+        </div>
+
+        <div class="cards">
+            <div class="card1">
+                <p style="font-size: 20px;">All important command till now.</p>
                 <h3> => git init</h3>
-                <p>Check status</p>
-                <h3>=> git status</h3>
-
-            </div>
-
-            <div class="card1">
-                <p>Before commit we have to send file staging area</p>
-                <h3> => git add (file name) </h3>
-                <p>sending multiple file staging area by using command</p>
-                <h3>=> git add . </h3>
-
-            </div>
-
-            <div class="card1">
-                <p>After staging area we have to send file for commit</p>
-                <h3> => git commit -m "meaning full message "</h3>
-                <p> After commit file goes repositery</p>
-                <h3>=> git status</h3>
-
-            </div>
-
-            <div class="card1">
-                <p>To clear the terminal by using command </p>
-                <h3> => clear</h3>
-                <p>or </p>
-                <h3>=> command + k </h3>
+                <h3> => ls</h3>
+                <h3> => ls -a</h3>
+                <h3> => git status</h3>
+                <h3> => git add (or) git add .</h3>
+                <h3> => git commit -m "message"</h3>
+                <h3> => git status</h3>
+                <h3> => git log</h3>
+                <h3> => git branch</h3>
+                <h3> => git checkout</h3>
+                <h3> => git merge</h3>
+                <h3> => git ignore</h3>
 
             </div>
         </div>
@@ -197,7 +236,7 @@
         </div>
     </footer>
 
-    
+
 
 </body>
 

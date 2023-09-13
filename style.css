@@ -142,3 +142,28 @@ body{
 
     padding: 10px;
 }
+
+.card2{
+    background-color: #e2e2e2;
+    padding: 20px;
+    margin-top: 20px;
+    color: #1f1821;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(36, 36, 36, 0.3);
+
+}
+
+
+.card2 p{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+.card2 h3{
+    font-size: 30px;
+    color: #02338d;
+
+    padding: 10px;
+}
