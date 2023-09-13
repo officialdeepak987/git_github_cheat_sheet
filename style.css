@@ -13,23 +13,78 @@ body{
 }
 
 .container{
-  margin: 8%;
+  margin: 6%;
 
 }
 
 .heading{
-    margin: 20px;
+    margin: 10px;
 
 }
 .heading h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 20px;
     padding-top:10px ;
 }
+.heading h1 span{
+    margin-top: 20px;
+}
 
 
+.defin{
+    margin-top: 30px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ background-color: #ffffff;
+  
+}
+
+.git{
+    width: 100%;
+    background: hwb(0 12% 88% / 0.821);
+    border-radius: 5px;
+    font-size: 20px;
+    color: #1f1821;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.github{
+    width: 100%;
+    background: hwb(0 12% 88% / 0.821);;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #1f1821;
+    padding: 10px;
+    margin: 10px;
+
+}
+.git h3{
+    font-size: 30px;
+    padding: 10px;
+    color: #f1ba2c;
+
+}
+.git li{
+    padding:10px;
+    font-size: 22px;
+    color: #fff;
+}
+ .github h3{
+    font-size: 30px;
+    padding: 10px;
+    color: #f1ba2c;
+}
+.github li{
+    padding:10px;
+    font-size: 22px;
+    color: #fff;
+}
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +113,32 @@ body{
 .card h3{
     font-size: 30px;
     color: #f1ba2c;
+
+    padding: 10px;
+}
+
+
+.card1{
+    background-color: #e2e2e2;
+    padding: 20px;
+    margin-top: 20px;
+    color: #1f1821;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(36, 36, 36, 0.3);
+
+}
+
+
+.card1 p{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+.card1 h3{
+    font-size: 30px;
+    color: #028d25;
 
     padding: 10px;
 }
